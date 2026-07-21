@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -ti:8123)",
+      "Bash(xargs kill)",
+      "Bash(rm -f /tmp/welcome_out*.html /tmp/serve.log)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
