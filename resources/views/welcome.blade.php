@@ -19,6 +19,33 @@ if (is_numeric($lat) && is_numeric($lng) && abs($lat) <= 90 && abs($lng) <= 180)
         'latitude' => (float) $lat,
         'longitude' => (float) $lng,
     ];
+
+    $geocodeCacheKey = sprintf('geocode:reverse:%s,%s', $location['latitude'], $location['longitude']);
+
+    $placeName = Cache::remember($geocodeCacheKey, 60 * 60 * 24 * 30, function () use ($location) {
+        $response = Http::withHeaders([
+            'User-Agent' => config('app.name').' ('.config('app.url').')',
+        ])->get('https://nominatim.openstreetmap.org/reverse', [
+            'lat' => $location['latitude'],
+            'lon' => $location['longitude'],
+            'format' => 'jsonv2',
+            'addressdetails' => 1,
+            'zoom' => 10,
+            'accept-language' => 'nl',
+        ]);
+
+        if ($response->failed()) {
+            return null;
+        }
+
+        $address = $response->json('address') ?? [];
+
+        return $address['city'] ?? $address['town'] ?? $address['village'] ?? $address['municipality'] ?? null;
+    });
+
+    if (filled($placeName)) {
+        $location['name'] = $placeName;
+    }
 }
 
 $weatherDescriptions = [
