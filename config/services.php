@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'matomo' => [
+        'url' => env('MATOMO_URL', '//stats.eris.nu/'),
+        'site_id' => env('MATOMO_SITE_ID', '11'),
+    ],
+
 ];
