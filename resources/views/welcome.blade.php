@@ -177,7 +177,27 @@ $days = $forecast['days'] ?? null;
                 </flux:subheading>
             </div>
 
-            <div x-data="{ loading: false }" class="flex items-center gap-2">
+            <div
+                x-data="{
+                    loading: false,
+                    handleLocationError(error) {
+                        loading = false;
+
+                        const messages = {
+                            1: '{{ __('Je hebt geen toestemming gegeven voor locatietoegang.') }}',
+                            2: '{{ __('Je locatie kon niet worden bepaald.') }}',
+                            3: '{{ __('Het ophalen van je locatie duurde te lang.') }}',
+                        };
+
+                        $flux.toast({
+                            heading: '{{ __('Locatie niet beschikbaar') }}',
+                            text: messages[error.code] ?? '{{ __('Er ging iets mis bij het ophalen van je locatie.') }}',
+                            variant: 'warning',
+                        });
+                    },
+                }"
+                class="flex items-center gap-2"
+            >
                 @if (request()->has('lat'))
                     <flux:button variant="ghost" size="sm" href="{{ route('home') }}">
                         {{ __('Terug naar Amsterdam') }}
@@ -194,7 +214,7 @@ $days = $forecast['days'] ?? null;
                             (position) => {
                                 window.location.href = '{{ route('home') }}?lat=' + position.coords.latitude + '&lng=' + position.coords.longitude;
                             },
-                            () => { loading = false; }
+                            handleLocationError
                         );
                     "
                     x-bind:disabled="loading"
