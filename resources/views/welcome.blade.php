@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Carbon;
 
@@ -12,13 +13,26 @@ $location = [
 
 $lat = request()->query('lat');
 $lng = request()->query('lng');
+$reset = request()->boolean('reset');
 
-if (is_numeric($lat) && is_numeric($lng) && abs($lat) <= 90 && abs($lng) <= 180) {
+if ($reset) {
+    Cookie::queue(Cookie::forget('location'));
+} elseif (! is_numeric($lat) || ! is_numeric($lng)) {
+    $cookieLocation = request()->cookie('location');
+
+    if (is_string($cookieLocation) && str_contains($cookieLocation, ',')) {
+        [$lat, $lng] = explode(',', $cookieLocation, 2);
+    }
+}
+
+if (! $reset && is_numeric($lat) && is_numeric($lng) && abs($lat) <= 90 && abs($lng) <= 180) {
     $location = [
         'name' => __('Jouw locatie'),
         'latitude' => (float) $lat,
         'longitude' => (float) $lng,
     ];
+
+    Cookie::queue('location', $lat.','.$lng, 60 * 24 * 30);
 
     $geocodeCacheKey = sprintf('geocode:reverse:%s,%s', $location['latitude'], $location['longitude']);
 
@@ -198,8 +212,8 @@ $days = $forecast['days'] ?? null;
                 }"
                 class="flex items-center gap-2"
             >
-                @if (request()->has('lat'))
-                    <flux:button variant="ghost" size="sm" href="{{ route('home') }}">
+                @if (! $reset && (request()->has('lat') || request()->cookie('location')))
+                    <flux:button variant="ghost" size="sm" href="{{ route('home', ['reset' => 1]) }}">
                         {{ __('Terug naar Amsterdam') }}
                     </flux:button>
                 @endif
