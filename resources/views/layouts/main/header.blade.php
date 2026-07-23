@@ -8,11 +8,17 @@
             <flux:sidebar.toggle class="lg:hidden mr-2" icon="bars-2" inset="left" />
 
             <x-app-logo href="{{ route('dashboard') }}" wire:navigate />
-            <flux:navbar class="-mb-px max-lg:hidden">
-                <flux:navbar.item :href="route('search')" :current="request()->routeIs('search')" wire:navigate>
-                    {{ __('Zoek een plaats') }}
-                </flux:navbar.item>
-            </flux:navbar>
+
+            <form method="GET" action="{{ route('search') }}" class="ms-4 max-lg:hidden">
+                <flux:input
+                    name="q"
+                    type="search"
+                    icon="magnifying-glass"
+                    size="sm"
+                    placeholder="{{ __('Zoek een plaats...') }}"
+                    class="w-56"
+                />
+            </form>
 
             <flux:spacer />
 
@@ -32,6 +38,16 @@
                 <x-app-logo :sidebar="true" href="{{ route('dashboard') }}" wire:navigate />
                 <flux:sidebar.collapse class="in-data-flux-sidebar-on-desktop:not-in-data-flux-sidebar-collapsed-desktop:-mr-2" />
             </flux:sidebar.header>
+
+            <form method="GET" action="{{ route('search') }}" class="px-4 pt-4">
+                <flux:input
+                    name="q"
+                    type="search"
+                    icon="magnifying-glass"
+                    size="sm"
+                    placeholder="{{ __('Zoek een plaats...') }}"
+                />
+            </form>
 
             <flux:sidebar.nav>
                 <flux:sidebar.group :heading="__('Platform')">
