@@ -1,0 +1,2396 @@
+[
+  {
+    "city": "'s-Gravenhage",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.07207,
+    "longitude": 4.293
+  },
+  {
+    "city": "'s-Hertogenbosch",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.71681,
+    "longitude": 5.35193
+  },
+  {
+    "city": "Aa en Hunze",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.993,
+    "longitude": 6.72726
+  },
+  {
+    "city": "Aalsmeer",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.2577,
+    "longitude": 4.75502
+  },
+  {
+    "city": "Aalten",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.92174,
+    "longitude": 6.56059
+  },
+  {
+    "city": "Achtkarspelen",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.21667,
+    "longitude": 6.14313
+  },
+  {
+    "city": "Alblasserdam",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.86465,
+    "longitude": 4.66573
+  },
+  {
+    "city": "Albrandswaard",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.85204,
+    "longitude": 4.43571
+  },
+  {
+    "city": "Alkmaar",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.60179,
+    "longitude": 4.80331
+  },
+  {
+    "city": "Almelo",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.34789,
+    "longitude": 6.6582
+  },
+  {
+    "city": "Almere",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.40247,
+    "longitude": 5.20565
+  },
+  {
+    "city": "Alphen aan den Rijn",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.11332,
+    "longitude": 4.64096
+  },
+  {
+    "city": "Alphen-Chaam",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.50138,
+    "longitude": 4.88736
+  },
+  {
+    "city": "Altena",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.76566,
+    "longitude": 4.94593
+  },
+  {
+    "city": "Ameland",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.43073,
+    "longitude": 5.76137
+  },
+  {
+    "city": "Amersfoort",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.17365,
+    "longitude": 5.3847
+  },
+  {
+    "city": "Amstelveen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.28927,
+    "longitude": 4.85149
+  },
+  {
+    "city": "Amsterdam",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.36649,
+    "longitude": 4.91979
+  },
+  {
+    "city": "Apeldoorn",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.18986,
+    "longitude": 5.92191
+  },
+  {
+    "city": "Arnhem",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.00114,
+    "longitude": 5.89259
+  },
+  {
+    "city": "Assen",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 53.00127,
+    "longitude": 6.55247
+  },
+  {
+    "city": "Asten",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.38641,
+    "longitude": 5.77923
+  },
+  {
+    "city": "Baarle-Nassau",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.43902,
+    "longitude": 4.89315
+  },
+  {
+    "city": "Baarn",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.20383,
+    "longitude": 5.26414
+  },
+  {
+    "city": "Barendrecht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.85107,
+    "longitude": 4.52544
+  },
+  {
+    "city": "Barneveld",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.1683,
+    "longitude": 5.64185
+  },
+  {
+    "city": "Beek",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.93086,
+    "longitude": 5.80913
+  },
+  {
+    "city": "Beekdaelen",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.93673,
+    "longitude": 5.89712
+  },
+  {
+    "city": "Beesel",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.26917,
+    "longitude": 6.06896
+  },
+  {
+    "city": "Berg en Dal",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.81995,
+    "longitude": 5.94981
+  },
+  {
+    "city": "Bergeijk",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.31014,
+    "longitude": 5.34
+  },
+  {
+    "city": "Bergen (L)",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.59191,
+    "longitude": 6.08938
+  },
+  {
+    "city": "Bergen (NH)",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.66317,
+    "longitude": 4.66139
+  },
+  {
+    "city": "Bergen op Zoom",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.50346,
+    "longitude": 4.2883
+  },
+  {
+    "city": "Berkelland",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.10092,
+    "longitude": 6.57073
+  },
+  {
+    "city": "Bernheze",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.68469,
+    "longitude": 5.52067
+  },
+  {
+    "city": "Best",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.51411,
+    "longitude": 5.39653
+  },
+  {
+    "city": "Beuningen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.86282,
+    "longitude": 5.74028
+  },
+  {
+    "city": "Beverwijk",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.48481,
+    "longitude": 4.64911
+  },
+  {
+    "city": "Bladel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.37229,
+    "longitude": 5.23874
+  },
+  {
+    "city": "Blaricum",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.28296,
+    "longitude": 5.27423
+  },
+  {
+    "city": "Bloemendaal",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.38593,
+    "longitude": 4.58154
+  },
+  {
+    "city": "Bodegraven-Reeuwijk",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.06541,
+    "longitude": 4.76609
+  },
+  {
+    "city": "Boekel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.60667,
+    "longitude": 5.69373
+  },
+  {
+    "city": "Borger-Odoorn",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.90588,
+    "longitude": 6.87198
+  },
+  {
+    "city": "Borne",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.31233,
+    "longitude": 6.74356
+  },
+  {
+    "city": "Borsele",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.43205,
+    "longitude": 3.82505
+  },
+  {
+    "city": "Boxtel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.58115,
+    "longitude": 5.32404
+  },
+  {
+    "city": "Breda",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.58512,
+    "longitude": 4.76144
+  },
+  {
+    "city": "Bronckhorst",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.04523,
+    "longitude": 6.30296
+  },
+  {
+    "city": "Brummen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.10898,
+    "longitude": 6.11851
+  },
+  {
+    "city": "Brunssum",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.94294,
+    "longitude": 5.978
+  },
+  {
+    "city": "Bunnik",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.04092,
+    "longitude": 5.21694
+  },
+  {
+    "city": "Bunschoten",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.24231,
+    "longitude": 5.35812
+  },
+  {
+    "city": "Buren",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.93834,
+    "longitude": 5.40363
+  },
+  {
+    "city": "Capelle aan den IJssel",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.93493,
+    "longitude": 4.58014
+  },
+  {
+    "city": "Castricum",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.55669,
+    "longitude": 4.67539
+  },
+  {
+    "city": "Coevorden",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.74026,
+    "longitude": 6.73591
+  },
+  {
+    "city": "Cranendonck",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.28628,
+    "longitude": 5.59618
+  },
+  {
+    "city": "Culemborg",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.94578,
+    "longitude": 5.21038
+  },
+  {
+    "city": "Dalfsen",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.51473,
+    "longitude": 6.27667
+  },
+  {
+    "city": "Dantumadiel",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.28005,
+    "longitude": 5.98452
+  },
+  {
+    "city": "De Bilt",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.14173,
+    "longitude": 5.17431
+  },
+  {
+    "city": "De Fryske Marren",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 52.89203,
+    "longitude": 5.67065
+  },
+  {
+    "city": "De Ronde Venen",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.22633,
+    "longitude": 4.91728
+  },
+  {
+    "city": "De Wolden",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.70167,
+    "longitude": 6.3735
+  },
+  {
+    "city": "Delft",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.99846,
+    "longitude": 4.36311
+  },
+  {
+    "city": "Den Helder",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.93998,
+    "longitude": 4.78523
+  },
+  {
+    "city": "Deurne",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.43622,
+    "longitude": 5.82698
+  },
+  {
+    "city": "Deventer",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.26824,
+    "longitude": 6.23581
+  },
+  {
+    "city": "Diemen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.33733,
+    "longitude": 4.9905
+  },
+  {
+    "city": "Dijk en Waard",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.68215,
+    "longitude": 4.82235
+  },
+  {
+    "city": "Dinkelland",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.37301,
+    "longitude": 6.91414
+  },
+  {
+    "city": "Doesburg",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.01867,
+    "longitude": 6.1469
+  },
+  {
+    "city": "Doetinchem",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.96079,
+    "longitude": 6.2867
+  },
+  {
+    "city": "Dongen",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.63588,
+    "longitude": 4.95545
+  },
+  {
+    "city": "Dordrecht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.78151,
+    "longitude": 4.70887
+  },
+  {
+    "city": "Drechterland",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.65714,
+    "longitude": 5.17323
+  },
+  {
+    "city": "Drimmelen",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.70015,
+    "longitude": 4.75875
+  },
+  {
+    "city": "Dronten",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.51001,
+    "longitude": 5.69535
+  },
+  {
+    "city": "Druten",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.87501,
+    "longitude": 5.61215
+  },
+  {
+    "city": "Duiven",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.94655,
+    "longitude": 6.01817
+  },
+  {
+    "city": "Echt-Susteren",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.08504,
+    "longitude": 5.9082
+  },
+  {
+    "city": "Edam-Volendam",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.54383,
+    "longitude": 5.0312
+  },
+  {
+    "city": "Ede",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.07643,
+    "longitude": 5.728
+  },
+  {
+    "city": "Eemnes",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.25189,
+    "longitude": 5.28268
+  },
+  {
+    "city": "Eemsdelta",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.33384,
+    "longitude": 6.87576
+  },
+  {
+    "city": "Eersel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.39649,
+    "longitude": 5.31462
+  },
+  {
+    "city": "Eijsden-Margraten",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.80106,
+    "longitude": 5.77369
+  },
+  {
+    "city": "Eindhoven",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.45016,
+    "longitude": 5.45854
+  },
+  {
+    "city": "Elburg",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.41324,
+    "longitude": 5.84903
+  },
+  {
+    "city": "Emmen",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.74965,
+    "longitude": 6.96196
+  },
+  {
+    "city": "Enkhuizen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.75519,
+    "longitude": 5.30337
+  },
+  {
+    "city": "Enschede",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.22081,
+    "longitude": 6.87779
+  },
+  {
+    "city": "Epe",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.32551,
+    "longitude": 5.95497
+  },
+  {
+    "city": "Ermelo",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.28825,
+    "longitude": 5.66616
+  },
+  {
+    "city": "Etten-Leur",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.57832,
+    "longitude": 4.64497
+  },
+  {
+    "city": "Geertruidenberg",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.69714,
+    "longitude": 4.88158
+  },
+  {
+    "city": "Geldrop-Mierlo",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.43127,
+    "longitude": 5.58756
+  },
+  {
+    "city": "Gemert-Bakel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.54075,
+    "longitude": 5.75429
+  },
+  {
+    "city": "Gennep",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.69927,
+    "longitude": 5.98711
+  },
+  {
+    "city": "Gilze en Rijen",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.55959,
+    "longitude": 4.91857
+  },
+  {
+    "city": "Goeree-Overflakkee",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.75227,
+    "longitude": 4.09999
+  },
+  {
+    "city": "Goes",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.51711,
+    "longitude": 3.84439
+  },
+  {
+    "city": "Goirle",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.51227,
+    "longitude": 5.03307
+  },
+  {
+    "city": "Gooise Meren",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.31805,
+    "longitude": 5.12326
+  },
+  {
+    "city": "Gorinchem",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.83846,
+    "longitude": 4.97708
+  },
+  {
+    "city": "Gouda",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.0153,
+    "longitude": 4.7062
+  },
+  {
+    "city": "Groningen",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.21859,
+    "longitude": 6.62063
+  },
+  {
+    "city": "Gulpen-Wittem",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.80234,
+    "longitude": 5.90014
+  },
+  {
+    "city": "Haaksbergen",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.1555,
+    "longitude": 6.75586
+  },
+  {
+    "city": "Haarlem",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.38342,
+    "longitude": 4.64753
+  },
+  {
+    "city": "Haarlemmermeer",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.30808,
+    "longitude": 4.68646
+  },
+  {
+    "city": "Halderberge",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.59054,
+    "longitude": 4.52311
+  },
+  {
+    "city": "Hardenberg",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.58564,
+    "longitude": 6.57414
+  },
+  {
+    "city": "Harderwijk",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.34132,
+    "longitude": 5.64415
+  },
+  {
+    "city": "Hardinxveld-Giessendam",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.83261,
+    "longitude": 4.85242
+  },
+  {
+    "city": "Harlingen",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.14309,
+    "longitude": 5.2676
+  },
+  {
+    "city": "Hattem",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.47478,
+    "longitude": 6.05326
+  },
+  {
+    "city": "Heemskerk",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.51249,
+    "longitude": 4.64045
+  },
+  {
+    "city": "Heemstede",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.34478,
+    "longitude": 4.61536
+  },
+  {
+    "city": "Heerde",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.40606,
+    "longitude": 6.05033
+  },
+  {
+    "city": "Heerenveen",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 52.99599,
+    "longitude": 5.978
+  },
+  {
+    "city": "Heerlen",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.89332,
+    "longitude": 5.96943
+  },
+  {
+    "city": "Heeze-Leende",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.36086,
+    "longitude": 5.56724
+  },
+  {
+    "city": "Heiloo",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.59985,
+    "longitude": 4.70857
+  },
+  {
+    "city": "Hellendoorn",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.38637,
+    "longitude": 6.45086
+  },
+  {
+    "city": "Helmond",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.47615,
+    "longitude": 5.65697
+  },
+  {
+    "city": "Hendrik-Ido-Ambacht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.84179,
+    "longitude": 4.63879
+  },
+  {
+    "city": "Hengelo (O)",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.25491,
+    "longitude": 6.77819
+  },
+  {
+    "city": "Het Hogeland",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.42819,
+    "longitude": 6.53801
+  },
+  {
+    "city": "Heumen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.77789,
+    "longitude": 5.81848
+  },
+  {
+    "city": "Heusden",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.69676,
+    "longitude": 5.16019
+  },
+  {
+    "city": "Hillegom",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.29677,
+    "longitude": 4.57695
+  },
+  {
+    "city": "Hilvarenbeek",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.47952,
+    "longitude": 5.14546
+  },
+  {
+    "city": "Hilversum",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.22311,
+    "longitude": 5.16804
+  },
+  {
+    "city": "Hoeksche Waard",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.76457,
+    "longitude": 4.44871
+  },
+  {
+    "city": "Hof van Twente",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.23644,
+    "longitude": 6.58996
+  },
+  {
+    "city": "Hollands Kroon",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.88572,
+    "longitude": 4.99274
+  },
+  {
+    "city": "Hoogeveen",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.72309,
+    "longitude": 6.51359
+  },
+  {
+    "city": "Hoorn",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.62993,
+    "longitude": 5.07192
+  },
+  {
+    "city": "Horst aan de Maas",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.44487,
+    "longitude": 6.04164
+  },
+  {
+    "city": "Houten",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.0041,
+    "longitude": 5.18172
+  },
+  {
+    "city": "Huizen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.29865,
+    "longitude": 5.24206
+  },
+  {
+    "city": "Hulst",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.33325,
+    "longitude": 4.06497
+  },
+  {
+    "city": "IJsselstein",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.02771,
+    "longitude": 5.02879
+  },
+  {
+    "city": "Kaag en Braassem",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.19258,
+    "longitude": 4.62919
+  },
+  {
+    "city": "Kampen",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.55836,
+    "longitude": 5.92333
+  },
+  {
+    "city": "Kapelle",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.49498,
+    "longitude": 3.97045
+  },
+  {
+    "city": "Katwijk",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.1923,
+    "longitude": 4.41629
+  },
+  {
+    "city": "Kerkrade",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.87183,
+    "longitude": 6.05097
+  },
+  {
+    "city": "Koggenland",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.64445,
+    "longitude": 4.94883
+  },
+  {
+    "city": "Krimpen aan den IJssel",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.9147,
+    "longitude": 4.6021
+  },
+  {
+    "city": "Krimpenerwaard",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.95239,
+    "longitude": 4.73718
+  },
+  {
+    "city": "Laarbeek",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.53092,
+    "longitude": 5.61177
+  },
+  {
+    "city": "Land van Cuijk",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.65549,
+    "longitude": 5.85913
+  },
+  {
+    "city": "Landgraaf",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.90643,
+    "longitude": 6.03299
+  },
+  {
+    "city": "Landsmeer",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.45058,
+    "longitude": 4.92456
+  },
+  {
+    "city": "Lansingerland",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.00401,
+    "longitude": 4.50611
+  },
+  {
+    "city": "Laren",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.24718,
+    "longitude": 5.21707
+  },
+  {
+    "city": "Leeuwarden",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.17002,
+    "longitude": 5.79792
+  },
+  {
+    "city": "Leiden",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.15498,
+    "longitude": 4.48512
+  },
+  {
+    "city": "Leiderdorp",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.15665,
+    "longitude": 4.54201
+  },
+  {
+    "city": "Leidschendam-Voorburg",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.09033,
+    "longitude": 4.42229
+  },
+  {
+    "city": "Lelystad",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.54273,
+    "longitude": 5.37476
+  },
+  {
+    "city": "Leudal",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.23944,
+    "longitude": 5.88482
+  },
+  {
+    "city": "Leusden",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.12222,
+    "longitude": 5.41645
+  },
+  {
+    "city": "Lingewaard",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.90153,
+    "longitude": 5.94223
+  },
+  {
+    "city": "Lisse",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.25555,
+    "longitude": 4.54584
+  },
+  {
+    "city": "Lochem",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.17948,
+    "longitude": 6.34685
+  },
+  {
+    "city": "Loon op Zand",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.64057,
+    "longitude": 5.04754
+  },
+  {
+    "city": "Lopik",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 51.98536,
+    "longitude": 4.94552
+  },
+  {
+    "city": "Losser",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.30281,
+    "longitude": 7.00275
+  },
+  {
+    "city": "Maasdriel",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.77625,
+    "longitude": 5.29692
+  },
+  {
+    "city": "Maasgouw",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.16157,
+    "longitude": 5.88239
+  },
+  {
+    "city": "Maashorst",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.68677,
+    "longitude": 5.65548
+  },
+  {
+    "city": "Maassluis",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.9252,
+    "longitude": 4.24887
+  },
+  {
+    "city": "Maastricht",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.85297,
+    "longitude": 5.69953
+  },
+  {
+    "city": "Medemblik",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.77018,
+    "longitude": 5.14404
+  },
+  {
+    "city": "Meerssen",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.90131,
+    "longitude": 5.75632
+  },
+  {
+    "city": "Meierijstad",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.59224,
+    "longitude": 5.5064
+  },
+  {
+    "city": "Meppel",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.71593,
+    "longitude": 6.19384
+  },
+  {
+    "city": "Middelburg",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.50316,
+    "longitude": 3.65084
+  },
+  {
+    "city": "Midden-Delfland",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.96475,
+    "longitude": 4.30614
+  },
+  {
+    "city": "Midden-Drenthe",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.86736,
+    "longitude": 6.54276
+  },
+  {
+    "city": "Midden-Groningen",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.19533,
+    "longitude": 6.80744
+  },
+  {
+    "city": "Moerdijk",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.66258,
+    "longitude": 4.53548
+  },
+  {
+    "city": "Molenlanden",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.88467,
+    "longitude": 4.84519
+  },
+  {
+    "city": "Montferland",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.91689,
+    "longitude": 6.21378
+  },
+  {
+    "city": "Montfoort",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.04771,
+    "longitude": 4.94405
+  },
+  {
+    "city": "Mook en Middelaar",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.74737,
+    "longitude": 5.89966
+  },
+  {
+    "city": "Neder-Betuwe",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.91588,
+    "longitude": 5.58687
+  },
+  {
+    "city": "Nederweert",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.29436,
+    "longitude": 5.77332
+  },
+  {
+    "city": "Nieuwegein",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.03082,
+    "longitude": 5.09467
+  },
+  {
+    "city": "Nieuwkoop",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.17079,
+    "longitude": 4.77947
+  },
+  {
+    "city": "Nijkerk",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.21213,
+    "longitude": 5.48436
+  },
+  {
+    "city": "Nijmegen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.83851,
+    "longitude": 5.83679
+  },
+  {
+    "city": "Nissewaard",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.83171,
+    "longitude": 4.28205
+  },
+  {
+    "city": "Noardeast-Fryslân",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.35193,
+    "longitude": 6.00414
+  },
+  {
+    "city": "Noord-Beveland",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.57324,
+    "longitude": 3.79644
+  },
+  {
+    "city": "Noordenveld",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 53.09562,
+    "longitude": 6.44031
+  },
+  {
+    "city": "Noordoostpolder",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.716,
+    "longitude": 5.72979
+  },
+  {
+    "city": "Noordwijk",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.27115,
+    "longitude": 4.47619
+  },
+  {
+    "city": "Nuenen, Gerwen en Nederwetten",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.4786,
+    "longitude": 5.54946
+  },
+  {
+    "city": "Nunspeet",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.33925,
+    "longitude": 5.78625
+  },
+  {
+    "city": "Oegstgeest",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.18555,
+    "longitude": 4.47121
+  },
+  {
+    "city": "Oirschot",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.49261,
+    "longitude": 5.28978
+  },
+  {
+    "city": "Oisterwijk",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.56247,
+    "longitude": 5.20448
+  },
+  {
+    "city": "Oldambt",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.21235,
+    "longitude": 7.07467
+  },
+  {
+    "city": "Oldebroek",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.45694,
+    "longitude": 5.93714
+  },
+  {
+    "city": "Oldenzaal",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.30773,
+    "longitude": 6.91104
+  },
+  {
+    "city": "Olst-Wijhe",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.36678,
+    "longitude": 6.15335
+  },
+  {
+    "city": "Ommen",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.51613,
+    "longitude": 6.43476
+  },
+  {
+    "city": "Oost Gelre",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.00984,
+    "longitude": 6.57573
+  },
+  {
+    "city": "Oosterhout",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.63777,
+    "longitude": 4.86407
+  },
+  {
+    "city": "Ooststellingwerf",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 52.98237,
+    "longitude": 6.28297
+  },
+  {
+    "city": "Oostzaan",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.45196,
+    "longitude": 4.87611
+  },
+  {
+    "city": "Opmeer",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.71528,
+    "longitude": 4.95347
+  },
+  {
+    "city": "Opsterland",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.04915,
+    "longitude": 6.11276
+  },
+  {
+    "city": "Oss",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.78157,
+    "longitude": 5.5264
+  },
+  {
+    "city": "Oude IJsselstreek",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.90782,
+    "longitude": 6.4095
+  },
+  {
+    "city": "Ouder-Amstel",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.28938,
+    "longitude": 4.91352
+  },
+  {
+    "city": "Oudewater",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.02746,
+    "longitude": 4.86424
+  },
+  {
+    "city": "Overbetuwe",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.9243,
+    "longitude": 5.77833
+  },
+  {
+    "city": "Papendrecht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.83324,
+    "longitude": 4.70334
+  },
+  {
+    "city": "Peel en Maas",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.3363,
+    "longitude": 5.99485
+  },
+  {
+    "city": "Pekela",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.07059,
+    "longitude": 6.97295
+  },
+  {
+    "city": "Pijnacker-Nootdorp",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.01753,
+    "longitude": 4.42195
+  },
+  {
+    "city": "Purmerend",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.54358,
+    "longitude": 4.93069
+  },
+  {
+    "city": "Putten",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.2439,
+    "longitude": 5.58267
+  },
+  {
+    "city": "Raalte",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.38783,
+    "longitude": 6.27905
+  },
+  {
+    "city": "Reimerswaal",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.44147,
+    "longitude": 4.12083
+  },
+  {
+    "city": "Renkum",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.98962,
+    "longitude": 5.78485
+  },
+  {
+    "city": "Renswoude",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.06895,
+    "longitude": 5.53416
+  },
+  {
+    "city": "Reusel-De Mierden",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.37826,
+    "longitude": 5.14775
+  },
+  {
+    "city": "Rheden",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.03355,
+    "longitude": 6.05126
+  },
+  {
+    "city": "Rhenen",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 51.98077,
+    "longitude": 5.56053
+  },
+  {
+    "city": "Ridderkerk",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.86879,
+    "longitude": 4.59611
+  },
+  {
+    "city": "Rijssen-Holten",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.29143,
+    "longitude": 6.43397
+  },
+  {
+    "city": "Rijswijk",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.0362,
+    "longitude": 4.32603
+  },
+  {
+    "city": "Roerdalen",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.1457,
+    "longitude": 6.04109
+  },
+  {
+    "city": "Roermond",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.20119,
+    "longitude": 6.01148
+  },
+  {
+    "city": "Roosendaal",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.51319,
+    "longitude": 4.42451
+  },
+  {
+    "city": "Rotterdam",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.93102,
+    "longitude": 4.27688
+  },
+  {
+    "city": "Rozendaal",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.04254,
+    "longitude": 5.96789
+  },
+  {
+    "city": "Rucphen",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.52267,
+    "longitude": 4.55856
+  },
+  {
+    "city": "Schagen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.78733,
+    "longitude": 4.74222
+  },
+  {
+    "city": "Scherpenzeel",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.08932,
+    "longitude": 5.50049
+  },
+  {
+    "city": "Schiedam",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.92676,
+    "longitude": 4.38526
+  },
+  {
+    "city": "Schiermonnikoog",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.47444,
+    "longitude": 6.22232
+  },
+  {
+    "city": "Schouwen-Duiveland",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.68217,
+    "longitude": 3.88284
+  },
+  {
+    "city": "Simpelveld",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.8288,
+    "longitude": 5.98664
+  },
+  {
+    "city": "Sint-Michielsgestel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.65707,
+    "longitude": 5.37812
+  },
+  {
+    "city": "Sittard-Geleen",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.00486,
+    "longitude": 5.8282
+  },
+  {
+    "city": "Sliedrecht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.83069,
+    "longitude": 4.77295
+  },
+  {
+    "city": "Sluis",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.33341,
+    "longitude": 3.5231
+  },
+  {
+    "city": "Smallingerland",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.11342,
+    "longitude": 6.03893
+  },
+  {
+    "city": "Soest",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.15619,
+    "longitude": 5.29629
+  },
+  {
+    "city": "Someren",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.37873,
+    "longitude": 5.69143
+  },
+  {
+    "city": "Son en Breugel",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.51638,
+    "longitude": 5.48247
+  },
+  {
+    "city": "Stadskanaal",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.00215,
+    "longitude": 7.01033
+  },
+  {
+    "city": "Staphorst",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.63351,
+    "longitude": 6.20708
+  },
+  {
+    "city": "Stede Broec",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.70007,
+    "longitude": 5.22685
+  },
+  {
+    "city": "Steenbergen",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.59989,
+    "longitude": 4.32363
+  },
+  {
+    "city": "Steenwijkerland",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.75555,
+    "longitude": 6.02999
+  },
+  {
+    "city": "Stein",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.96899,
+    "longitude": 5.76367
+  },
+  {
+    "city": "Stichtse Vecht",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.17695,
+    "longitude": 5.01259
+  },
+  {
+    "city": "Súdwest-Fryslân",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 52.99786,
+    "longitude": 5.46127
+  },
+  {
+    "city": "Terneuzen",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.30164,
+    "longitude": 3.83624
+  },
+  {
+    "city": "Terschelling",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.33985,
+    "longitude": 5.37478
+  },
+  {
+    "city": "Texel",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 53.07912,
+    "longitude": 4.87379
+  },
+  {
+    "city": "Teylingen",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.214,
+    "longitude": 4.5119
+  },
+  {
+    "city": "Tholen",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.57039,
+    "longitude": 4.10635
+  },
+  {
+    "city": "Tiel",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.88508,
+    "longitude": 5.40686
+  },
+  {
+    "city": "Tilburg",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.58342,
+    "longitude": 5.07737
+  },
+  {
+    "city": "Tubbergen",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.41058,
+    "longitude": 6.77667
+  },
+  {
+    "city": "Twenterand",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.44789,
+    "longitude": 6.59808
+  },
+  {
+    "city": "Tynaarlo",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 53.09711,
+    "longitude": 6.60437
+  },
+  {
+    "city": "Tytsjerksteradiel",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.19986,
+    "longitude": 5.96272
+  },
+  {
+    "city": "Uitgeest",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.52343,
+    "longitude": 4.72861
+  },
+  {
+    "city": "Uithoorn",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.23691,
+    "longitude": 4.79085
+  },
+  {
+    "city": "Urk",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.69315,
+    "longitude": 5.4816
+  },
+  {
+    "city": "Utrecht",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.09114,
+    "longitude": 5.07475
+  },
+  {
+    "city": "Utrechtse Heuvelrug",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.03471,
+    "longitude": 5.38832
+  },
+  {
+    "city": "Vaals",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.77433,
+    "longitude": 5.97585
+  },
+  {
+    "city": "Valkenburg aan de Geul",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.86071,
+    "longitude": 5.82387
+  },
+  {
+    "city": "Valkenswaard",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.32375,
+    "longitude": 5.44923
+  },
+  {
+    "city": "Veendam",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.08898,
+    "longitude": 6.88009
+  },
+  {
+    "city": "Veenendaal",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.02368,
+    "longitude": 5.55566
+  },
+  {
+    "city": "Veere",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.5626,
+    "longitude": 3.58464
+  },
+  {
+    "city": "Veldhoven",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.41186,
+    "longitude": 5.38321
+  },
+  {
+    "city": "Velsen",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.45294,
+    "longitude": 4.61352
+  },
+  {
+    "city": "Venlo",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.39095,
+    "longitude": 6.15911
+  },
+  {
+    "city": "Venray",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.51537,
+    "longitude": 5.96288
+  },
+  {
+    "city": "Vijfheerenlanden",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 51.93598,
+    "longitude": 5.05676
+  },
+  {
+    "city": "Vlaardingen",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.91739,
+    "longitude": 4.32786
+  },
+  {
+    "city": "Vlieland",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.21969,
+    "longitude": 5.03465
+  },
+  {
+    "city": "Vlissingen",
+    "state": "Zeeland",
+    "country": "Nederland",
+    "latitude": 51.46533,
+    "longitude": 3.48105
+  },
+  {
+    "city": "Voerendaal",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 50.86937,
+    "longitude": 5.91649
+  },
+  {
+    "city": "Voorne aan Zee",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.87201,
+    "longitude": 4.10548
+  },
+  {
+    "city": "Voorschoten",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.12482,
+    "longitude": 4.43863
+  },
+  {
+    "city": "Voorst",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.22557,
+    "longitude": 6.09912
+  },
+  {
+    "city": "Vught",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.65036,
+    "longitude": 5.24261
+  },
+  {
+    "city": "Waadhoeke",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 53.23138,
+    "longitude": 5.61311
+  },
+  {
+    "city": "Waalre",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.38729,
+    "longitude": 5.46487
+  },
+  {
+    "city": "Waalwijk",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.69232,
+    "longitude": 5.01182
+  },
+  {
+    "city": "Waddinxveen",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.04239,
+    "longitude": 4.64071
+  },
+  {
+    "city": "Wageningen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.97348,
+    "longitude": 5.66351
+  },
+  {
+    "city": "Wassenaar",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.14106,
+    "longitude": 4.36705
+  },
+  {
+    "city": "Waterland",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.44896,
+    "longitude": 5.06325
+  },
+  {
+    "city": "Weert",
+    "state": "Limburg",
+    "country": "Nederland",
+    "latitude": 51.23361,
+    "longitude": 5.6917
+  },
+  {
+    "city": "West Betuwe",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.8616,
+    "longitude": 5.20935
+  },
+  {
+    "city": "West Maas en Waal",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.85163,
+    "longitude": 5.49659
+  },
+  {
+    "city": "Westerkwartier",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.21851,
+    "longitude": 6.33803
+  },
+  {
+    "city": "Westerveld",
+    "state": "Drenthe",
+    "country": "Nederland",
+    "latitude": 52.83819,
+    "longitude": 6.29553
+  },
+  {
+    "city": "Westervoort",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.95752,
+    "longitude": 5.97072
+  },
+  {
+    "city": "Westerwolde",
+    "state": "Groningen",
+    "country": "Nederland",
+    "latitude": 53.014,
+    "longitude": 7.12019
+  },
+  {
+    "city": "Westland",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.0007,
+    "longitude": 4.21106
+  },
+  {
+    "city": "Weststellingwerf",
+    "state": "Fryslân",
+    "country": "Nederland",
+    "latitude": 52.87576,
+    "longitude": 6.01769
+  },
+  {
+    "city": "Wierden",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.34444,
+    "longitude": 6.56063
+  },
+  {
+    "city": "Wijchen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.81674,
+    "longitude": 5.70191
+  },
+  {
+    "city": "Wijdemeren",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.22618,
+    "longitude": 5.08484
+  },
+  {
+    "city": "Wijk bij Duurstede",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 51.9892,
+    "longitude": 5.32525
+  },
+  {
+    "city": "Winterswijk",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.96985,
+    "longitude": 6.72586
+  },
+  {
+    "city": "Woensdrecht",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.40829,
+    "longitude": 4.34227
+  },
+  {
+    "city": "Woerden",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.10694,
+    "longitude": 4.8989
+  },
+  {
+    "city": "Wormerland",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.502,
+    "longitude": 4.85513
+  },
+  {
+    "city": "Woudenberg",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.08116,
+    "longitude": 5.42664
+  },
+  {
+    "city": "Zaanstad",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.46291,
+    "longitude": 4.77301
+  },
+  {
+    "city": "Zaltbommel",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.79229,
+    "longitude": 5.15844
+  },
+  {
+    "city": "Zandvoort",
+    "state": "Noord-Holland",
+    "country": "Nederland",
+    "latitude": 52.35999,
+    "longitude": 4.53574
+  },
+  {
+    "city": "Zeewolde",
+    "state": "Flevoland",
+    "country": "Nederland",
+    "latitude": 52.34436,
+    "longitude": 5.45524
+  },
+  {
+    "city": "Zeist",
+    "state": "Utrecht",
+    "country": "Nederland",
+    "latitude": 52.10197,
+    "longitude": 5.25519
+  },
+  {
+    "city": "Zevenaar",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 51.9241,
+    "longitude": 6.08523
+  },
+  {
+    "city": "Zoetermeer",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.06091,
+    "longitude": 4.48977
+  },
+  {
+    "city": "Zoeterwoude",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 52.1148,
+    "longitude": 4.51383
+  },
+  {
+    "city": "Zuidplas",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.99888,
+    "longitude": 4.60707
+  },
+  {
+    "city": "Zundert",
+    "state": "Noord-Brabant",
+    "country": "Nederland",
+    "latitude": 51.4798,
+    "longitude": 4.64262
+  },
+  {
+    "city": "Zutphen",
+    "state": "Gelderland",
+    "country": "Nederland",
+    "latitude": 52.13635,
+    "longitude": 6.23395
+  },
+  {
+    "city": "Zwartewaterland",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.60275,
+    "longitude": 6.06371
+  },
+  {
+    "city": "Zwijndrecht",
+    "state": "Zuid-Holland",
+    "country": "Nederland",
+    "latitude": 51.82184,
+    "longitude": 4.6058
+  },
+  {
+    "city": "Zwolle",
+    "state": "Overijssel",
+    "country": "Nederland",
+    "latitude": 52.51869,
+    "longitude": 6.11836
+  }
+]

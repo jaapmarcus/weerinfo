@@ -9,6 +9,9 @@
 
             <x-app-logo href="{{ route('dashboard') }}" wire:navigate />
             <flux:navbar class="-mb-px max-lg:hidden">
+                <flux:navbar.item :href="route('search')" :current="request()->routeIs('search')" wire:navigate>
+                    {{ __('Zoek een plaats') }}
+                </flux:navbar.item>
             </flux:navbar>
 
             <flux:spacer />
