@@ -18,6 +18,7 @@ class LocationController extends Controller
 
         return view('location', [
             'location' => $location,
+            'current' => $forecast['current'] ?? null,
             'hours' => $forecast['hours'] ?? null,
             'days' => $forecast['days'] ?? null,
         ]);

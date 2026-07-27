@@ -56,6 +56,7 @@ class SearchController extends Controller
             'query' => $query,
             'results' => $results,
             'location' => $location,
+            'current' => $forecast['current'] ?? null,
             'hours' => $forecast['hours'] ?? null,
             'days' => $forecast['days'] ?? null,
         ]);

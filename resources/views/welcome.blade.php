@@ -64,6 +64,7 @@ if (! $reset && is_numeric($lat) && is_numeric($lng) && abs($lat) <= 90 && abs($
 
 $forecast = Weather::forecast($location['latitude'], $location['longitude']);
 
+$current = $forecast['current'] ?? null;
 $hours = $forecast['hours'] ?? null;
 $days = $forecast['days'] ?? null;
 
@@ -73,8 +74,8 @@ $days = $forecast['days'] ?? null;
     <div class="mx-auto w-full max-w-4xl px-4 py-8">
         <div class="flex flex-wrap items-start justify-between gap-4">
             <div>
-                <flux:heading size="xl">{{ __('Weer vandaag') }}</flux:heading>
-                <flux:subheading>
+                <flux:heading size="xl" class="text-ink">{{ __('Weer vandaag') }}</flux:heading>
+                <flux:subheading class="text-slate">
                     {{ $location['name'] }} &middot; {{ now()->translatedFormat('l d F Y') }}
                 </flux:subheading>
             </div>
@@ -127,6 +128,6 @@ $days = $forecast['days'] ?? null;
             </div>
         </div>
 
-        @include('partials.forecast', ['location' => $location, 'hours' => $hours, 'days' => $days])
+        @include('partials.forecast', ['location' => $location, 'current' => $current, 'hours' => $hours, 'days' => $days])
     </div>
 </x-layouts::main>

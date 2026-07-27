@@ -95,6 +95,7 @@ class Weather
             $response = Http::get('https://api.open-meteo.com/v1/forecast', [
                 'latitude' => $latitude,
                 'longitude' => $longitude,
+                'current' => 'temperature_2m,apparent_temperature,weather_code',
                 'hourly' => 'temperature_2m,precipitation_probability,weather_code,uv_index',
                 'daily' => 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max',
                 'timezone' => 'Europe/Amsterdam',
@@ -105,12 +106,19 @@ class Weather
                 return null;
             }
 
+            $current = $response->json('current');
             $hourly = $response->json('hourly');
             $today = array_slice($hourly['time'], 0, 24);
 
             $daily = $response->json('daily');
 
             return [
+                'current' => [
+                    'temperature' => $current['temperature_2m'],
+                    'apparent_temperature' => $current['apparent_temperature'],
+                    'weather_code' => $current['weather_code'],
+                ],
+
                 'hours' => array_map(fn ($time, $index) => [
                     'time' => $time,
                     'temperature' => $hourly['temperature_2m'][$index],

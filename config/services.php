@@ -40,4 +40,9 @@ return [
         'site_id' => env('MATOMO_SITE_ID', '11'),
     ],
 
+    'openai' => [
+        'key' => env('OPENAI_API_KEY'),
+        'model' => env('OPENAI_MODEL', 'gpt-4o-mini'),
+    ],
+
 ];

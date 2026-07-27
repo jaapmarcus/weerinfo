@@ -1,7 +1,7 @@
 <x-layouts::main :title="__('Zoek een plaats | Weer Gids')">
     <div class="mx-auto w-full max-w-4xl px-4 py-8">
-        <flux:heading size="xl">{{ __('Zoek een plaats') }}</flux:heading>
-        <flux:subheading class="mb-6">
+        <flux:heading size="xl" class="text-ink">{{ __('Zoek een plaats') }}</flux:heading>
+        <flux:subheading class="mb-6 text-slate">
             {{ __('Bekijk het weer voor elke plaats ter wereld') }}
         </flux:subheading>
 
@@ -30,10 +30,10 @@
                 @foreach ($results as $result)
                     <flux:link
                         href="{{ route('search', ['q' => $query, 'lat' => $result['latitude'], 'lng' => $result['longitude'], 'name' => collect([$result['name'], $result['admin1'] ?? null, $result['country'] ?? null])->filter()->implode(', ')]) }}"
-                        class="rounded-xl border border-neutral-200 p-4 no-underline hover:bg-neutral-50 dark:border-neutral-700 dark:hover:bg-neutral-800"
+                        class="rounded-xl border border-hairline bg-white p-4 !no-underline hover:bg-mist"
                     >
-                        <flux:text class="font-medium text-zinc-800 dark:text-white">{{ $result['name'] }}</flux:text>
-                        <flux:text class="text-xs text-neutral-500 dark:text-neutral-400">
+                        <flux:text class="font-medium text-ink">{{ $result['name'] }}</flux:text>
+                        <flux:text class="text-xs text-slate">
                             {{ collect([$result['admin1'] ?? null, $result['country'] ?? null])->filter()->implode(', ') }}
                         </flux:text>
                     </flux:link>
@@ -43,12 +43,12 @@
 
         @if ($location)
             <div class="mt-8">
-                <flux:heading size="lg">{{ $location['name'] }}</flux:heading>
-                <flux:subheading class="mb-3">
+                <flux:heading size="lg" class="text-ink">{{ $location['name'] }}</flux:heading>
+                <flux:subheading class="mb-3 text-slate">
                     {{ now()->translatedFormat('l d F Y') }}
                 </flux:subheading>
 
-                @include('partials.forecast', ['location' => $location, 'hours' => $hours, 'days' => $days])
+                @include('partials.forecast', ['location' => $location, 'current' => $current, 'hours' => $hours, 'days' => $days])
             </div>
         @endif
     </div>
