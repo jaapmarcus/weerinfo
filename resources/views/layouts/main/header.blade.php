@@ -7,7 +7,7 @@
         <flux:header container class="border-b border-hairline bg-mist/90 backdrop-blur-sm">
             <flux:sidebar.toggle class="lg:hidden mr-2" icon="bars-2" inset="left" />
 
-            <x-app-logo href="{{ route('dashboard') }}" wire:navigate />
+            <x-app-logo href="{{ route('home') }}" wire:navigate />
 
             <form method="GET" action="{{ route('search') }}" class="ms-4 max-lg:hidden">
                 <flux:input
