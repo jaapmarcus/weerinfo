@@ -18,7 +18,7 @@ test('authenticated users can create a blog post', function () {
         ->set('title', 'My first post')
         ->set('excerpt', 'A short excerpt')
         ->set('body', '<p>Post body</p>')
-        ->set('categoryNames', 'Weer, Nederland')
+        ->set('categories', ['Weer', 'Nederland'])
         ->set('isPublished', true)
         ->call('save')
         ->assertHasNoErrors()

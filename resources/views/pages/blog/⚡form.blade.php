@@ -6,6 +6,7 @@ use Flux\Flux;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Livewire\Attributes\Computed;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 use Livewire\WithFileUploads;
@@ -18,7 +19,8 @@ new #[Title('Blogbericht')] class extends Component {
     public string $title = '';
     public string $excerpt = '';
     public string $body = '';
-    public string $categoryNames = '';
+    public array $categories = [];
+    public string $newCategory = '';
     public bool $isPublished = false;
     public $featuredImage = null;
 
@@ -31,8 +33,30 @@ new #[Title('Blogbericht')] class extends Component {
             $this->excerpt = (string) $post->excerpt;
             $this->body = $post->body;
             $this->isPublished = $post->is_published;
-            $this->categoryNames = $post->categories->pluck('name')->implode(', ');
+            $this->categories = $post->categories->pluck('name')->all();
         }
+    }
+
+    #[Computed]
+    public function categoryOptions(): array
+    {
+        return BlogCategory::query()->pluck('name')
+            ->merge($this->categories)
+            ->unique()
+            ->sort()
+            ->values()
+            ->all();
+    }
+
+    public function addNewCategory(): void
+    {
+        $name = trim($this->newCategory);
+
+        if ($name !== '' && ! in_array($name, $this->categories, true)) {
+            $this->categories[] = $name;
+        }
+
+        $this->newCategory = '';
     }
 
     public function save(): void
@@ -67,7 +91,7 @@ new #[Title('Blogbericht')] class extends Component {
         $post->save();
 
         $post->categories()->sync(
-            collect(explode(',', $this->categoryNames))
+            collect($this->categories)
                 ->map(fn (string $name) => trim($name))
                 ->filter()
                 ->unique()
@@ -93,7 +117,28 @@ new #[Title('Blogbericht')] class extends Component {
 
         <flux:textarea wire:model="excerpt" :label="__('Samenvatting')" :description="__('Optioneel, wordt getoond in het overzicht')" rows="2" />
 
-        <flux:input wire:model="categoryNames" :label="__('Categorieën')" :description="__('Kommagescheiden, bijv. Weer, Nederland')" />
+        <flux:pillbox
+            variant="combobox"
+            multiple
+            wire:model="categories"
+            :label="__('Categorieën')"
+            :description="__('Kies een bestaande categorie of typ een nieuwe naam')"
+            :placeholder="__('Selecteer of typ een nieuwe categorie...')"
+        >
+            <x-slot name="input">
+                <flux:pillbox.input wire:model.live="newCategory" placeholder="{{ __('Selecteer of typ een nieuwe categorie...') }}" />
+            </x-slot>
+
+            @foreach ($this->categoryOptions as $option)
+                <flux:pillbox.option value="{{ $option }}">{{ $option }}</flux:pillbox.option>
+            @endforeach
+
+            @if (trim($newCategory) !== '')
+                <flux:pillbox.option.create wire:click="addNewCategory">
+                    {{ __('Nieuw: ":name"', ['name' => trim($newCategory)]) }}
+                </flux:pillbox.option.create>
+            @endif
+        </flux:pillbox>
 
         <flux:field>
             <flux:label>{{ __('Uitgelichte afbeelding') }}</flux:label>
