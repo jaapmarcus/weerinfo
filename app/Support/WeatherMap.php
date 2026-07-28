@@ -150,14 +150,14 @@ class WeatherMap
     private static function drawHeader(GdImage $image, CarbonInterface $date, int $ink, int $slate, int $hairline): void
     {
         imagestring($image, 5, self::PADDING, 22, 'WEERBERICHT VANDAAG', $ink);
-        imagestring($image, 3, self::PADDING, 44, mb_strtoupper($date->translatedFormat('l d F Y')), $slate);
+        imagestring($image, 3, self::PADDING, 44, mb_strtoupper($date->locale(config('app.locale'))->translatedFormat('l d F Y')), $slate);
         imageline($image, self::PADDING, 68, self::WIDTH - self::PADDING, 68, $hairline);
     }
 
     private static function drawFooter(GdImage $image, int $slate, int $hairline): void
     {
         imageline($image, self::PADDING, self::HEIGHT - 40, self::WIDTH - self::PADDING, self::HEIGHT - 40, $hairline);
-        imagestring($image, 2, self::PADDING, self::HEIGHT - 28, 'WEERGIDS.NL', $slate);
+        imagestring($image, 2, self::PADDING, self::HEIGHT - 28, 'WEERINFO.NL', $slate);
     }
 
     /**

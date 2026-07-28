@@ -80,7 +80,7 @@ class GenerateDailyWeatherReport extends Command
 
         $post = BlogPost::create([
             'user_id' => $author->id,
-            'title' => 'Weerbericht van '.$today->translatedFormat('l d F Y'),
+            'title' => 'Weerbericht van '.$today->locale(config('app.locale'))->translatedFormat('l d F Y'),
             'excerpt' => Str::limit(strip_tags($body), 160),
             'body' => $body,
             'featured_image' => $imagePath,
@@ -152,7 +152,7 @@ class GenerateDailyWeatherReport extends Command
                         'role' => 'user',
                         'content' => sprintf(
                             'Schrijf een weerbericht van ongeveer 300 woorden in het Nederlands voor %s. Noem de opvallendste verschillen tussen de regio\'s. Begin niet met een titel of aanhef, begin direct met de eerste alinea.',
-                            $today->translatedFormat('l d F Y'),
+                            $today->locale(config('app.locale'))->translatedFormat('l d F Y'),
                             $summary,
                         ),
                     ],

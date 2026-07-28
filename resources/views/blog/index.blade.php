@@ -2,7 +2,7 @@
     <div class="mx-auto w-full max-w-4xl px-4 py-8">
         <flux:heading size="xl" class="text-ink">{{ __('Blog') }}</flux:heading>
         <flux:subheading class="mb-6 text-slate">
-            {{ $category ? $category->name : __('Nieuws en artikelen van Weer Gids') }}
+            {{ $category ? $category->name : __('Nieuws en artikelen van Weer info') }}
         </flux:subheading>
 
         @if ($category)

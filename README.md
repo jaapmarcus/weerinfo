@@ -1,1 +1,1 @@
-# weergids-nl
+# weerinfo-nl
