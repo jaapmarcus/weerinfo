@@ -33,8 +33,35 @@ class BlogController extends Controller
 
         $post->load(['author', 'categories']);
 
+        $categoryIds = $post->categories->pluck('id');
+
+        $relatedPosts = BlogPost::published()
+            ->where('id', '!=', $post->id)
+            ->with(['author', 'categories'])
+            ->when(
+                $categoryIds->isNotEmpty(),
+                fn ($query) => $query->whereHas('categories', fn ($query) => $query->whereIn('blog_categories.id', $categoryIds))
+            )
+            ->latest('published_at')
+            ->limit(4)
+            ->get();
+
+        if ($relatedPosts->count() < 4) {
+            $excludedIds = $relatedPosts->pluck('id')->push($post->id);
+
+            $relatedPosts = $relatedPosts->concat(
+                BlogPost::published()
+                    ->whereNotIn('id', $excludedIds)
+                    ->with(['author', 'categories'])
+                    ->latest('published_at')
+                    ->limit(4 - $relatedPosts->count())
+                    ->get()
+            );
+        }
+
         return view('blog.show', [
             'post' => $post,
+            'relatedPosts' => $relatedPosts,
         ]);
     }
 }
