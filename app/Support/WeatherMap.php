@@ -43,9 +43,9 @@ class WeatherMap
     /**
      * Render an abstract overview map of the given locations, plotted over
      * the Dutch national outline, as a PNG. Each location must include
-     * name, lat, lon, temperature_max, temperature_min and weather_code.
+     * region, lat, lon, temperature_max, temperature_min and weather_code.
      *
-     * @param  array<int, array{name: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>  $locations
+     * @param  array<int, array{region: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>  $locations
      */
     public static function render(array $locations, CarbonInterface $date): string
     {

@@ -20,15 +20,15 @@ class GenerateDailyWeatherReport extends Command
     protected $description = 'Generate the daily national weather map and AI-written forecast blog post';
 
     /**
-     * @var array<int, array{name: string, lat: float, lon: float}>
+     * @var array<int, array{region: string, lat: float, lon: float}>
      */
     private const LOCATIONS = [
-        ['name' => 'Vlissingen', 'lat' => 51.4426, 'lon' => 3.5734],
-        ['name' => 'Weert', 'lat' => 51.2500, 'lon' => 5.7047],
-        ['name' => 'Den Helder', 'lat' => 52.9563, 'lon' => 4.7601],
-        ['name' => 'De Bilt', 'lat' => 52.1089, 'lon' => 5.1801],
-        ['name' => 'Zutphen', 'lat' => 52.1397, 'lon' => 6.1970],
-        ['name' => 'Groningen', 'lat' => 53.2194, 'lon' => 6.5665],
+        ['region' => 'Zuidwest-Nederland', 'lat' => 51.4426, 'lon' => 3.5734],
+        ['region' => 'Zuidoost-Nederland', 'lat' => 51.2500, 'lon' => 5.7047],
+        ['region' => 'Noordwest-Nederland', 'lat' => 52.9563, 'lon' => 4.7601],
+        ['region' => 'Midden-Nederland', 'lat' => 52.1089, 'lon' => 5.1801],
+        ['region' => 'Oost-Nederland', 'lat' => 52.1397, 'lon' => 6.1970],
+        ['region' => 'Noord-Nederland', 'lat' => 53.2194, 'lon' => 6.5665],
     ];
 
     public function handle(): int
@@ -81,7 +81,7 @@ class GenerateDailyWeatherReport extends Command
         $post = BlogPost::create([
             'user_id' => $author->id,
             'title' => 'Weerbericht van '.$today->locale(config('app.locale'))->translatedFormat('l d F Y'),
-            'excerpt' => Str::limit(strip_tags($body), 160),
+            'excerpt' => Str::limit(html_entity_decode(strip_tags($body), ENT_QUOTES), 160),
             'body' => $body,
             'featured_image' => $imagePath,
             'is_published' => true,
@@ -96,7 +96,7 @@ class GenerateDailyWeatherReport extends Command
     }
 
     /**
-     * @return array<int, array{name: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>|null
+     * @return array<int, array{region: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>|null
      */
     private function collectForecasts(): ?array
     {
@@ -122,7 +122,7 @@ class GenerateDailyWeatherReport extends Command
     }
 
     /**
-     * @param  array<int, array{name: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>  $locations
+     * @param  array<int, array{region: string, lat: float, lon: float, temperature_max: float, temperature_min: float, weather_code: int}>  $locations
      */
     private function generateForecastText(array $locations, CarbonInterface $today): ?string
     {
@@ -131,7 +131,7 @@ class GenerateDailyWeatherReport extends Command
         $summary = collect($locations)
             ->map(fn (array $location) => sprintf(
                 '%s: %d tot %d graden, %s',
-                $location['name'],
+                $location['region'],
                 round($location['temperature_min']),
                 round($location['temperature_max']),
                 $descriptions[$location['weather_code']] ?? 'onbekend',
@@ -146,12 +146,12 @@ class GenerateDailyWeatherReport extends Command
                 'messages' => [
                     [
                         'role' => 'system',
-                        'content' => 'Je bent een Nederlandse weerredacteur die korte, prettig leesbare weerberichten schrijft voor de website Weer Gids. Je schrijft in vloeiende alinea\'s, geen opsommingen, in een neutrale journalistieke toon.',
+                        'content' => 'Je bent een Nederlandse weerredacteur die korte, prettig leesbare weerberichten schrijft voor de website Weer info. Je schrijft in vloeiende alinea\'s, geen opsommingen, in een neutrale journalistieke toon.',
                     ],
                     [
                         'role' => 'user',
                         'content' => sprintf(
-                            'Schrijf een weerbericht van ongeveer 300 woorden in het Nederlands voor %s. Noem de opvallendste verschillen tussen de regio\'s. Begin niet met een titel of aanhef, begin direct met de eerste alinea.',
+                            'Schrijf een weerbericht van ongeveer 300 woorden in het Nederlands voor %s op basis van de volgende gegevens per regio: %s. Noem de opvallendste verschillen tussen de regio\'s. Begin niet met een titel of aanhef, begin direct met de eerste alinea.',
                             $today->locale(config('app.locale'))->translatedFormat('l d F Y'),
                             $summary,
                         ),
