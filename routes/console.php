@@ -10,4 +10,5 @@ Artisan::command('inspire', function () {
 
 Schedule::command('weather:daily-report')
     ->dailyAt('06:00')
-    ->timezone('Europe/Amsterdam');
+    ->timezone('Europe/Amsterdam')
+    ->appendOutputTo(storage_path('logs/weather-daily-report.log'));
