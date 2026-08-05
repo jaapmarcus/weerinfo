@@ -4,6 +4,7 @@ namespace App\Support;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class Weather
 {
@@ -103,6 +104,13 @@ class Weather
             ]);
 
             if ($response->failed()) {
+                Log::warning('Open-Meteo forecast request failed', [
+                    'latitude' => $latitude,
+                    'longitude' => $longitude,
+                    'status' => $response->status(),
+                    'body' => $response->body(),
+                ]);
+
                 return null;
             }
 

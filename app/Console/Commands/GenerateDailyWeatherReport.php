@@ -10,6 +10,7 @@ use App\Support\WeatherMap;
 use Carbon\CarbonInterface;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
@@ -107,6 +108,8 @@ class GenerateDailyWeatherReport extends Command
             $today = $forecast['days'][0] ?? null;
 
             if ($today === null) {
+                Log::warning('Geen weersverwachting voor locatie ontvangen', ['region' => $location['region']]);
+
                 return null;
             }
 

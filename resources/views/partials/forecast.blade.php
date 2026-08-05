@@ -67,8 +67,8 @@
     <div class="overflow-hidden rounded-xl border border-hairline">
         <iframe
             src="https://www.rainviewer.com/map.html?loc={{ $location['latitude'] }},{{ $location['longitude'] }},7&oFa=0&oC=1&oU=0&oCS=1&oF=0&oAP=1&c=3&o=83&lm=1&layer=radar&sm=1&sn=1"
-            class="h-96 w-full"
-            frameborder="0"
+            title="{{ __('Regenradar') }} {{ $location['name'] }}"
+            class="h-96 w-full border-0"
             loading="lazy"
         ></iframe>
     </div>
