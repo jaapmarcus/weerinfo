@@ -93,7 +93,7 @@ class Weather
         $cacheKey = sprintf('weather:forecast:%s,%s:%s', $latitude, $longitude, now()->format('Y-m-d-H'));
 
         return Cache::remember($cacheKey, 900, function () use ($latitude, $longitude) {
-            $response = Http::get('https://api.open-meteo.com/v1/forecast', [
+            $response = Http::retry(3, 2000, throw: false)->get('https://api.open-meteo.com/v1/forecast', [
                 'latitude' => $latitude,
                 'longitude' => $longitude,
                 'current' => 'temperature_2m,apparent_temperature,weather_code',
