@@ -26,6 +26,12 @@
                 <flux:navbar.item class="h-10 max-lg:hidden" :href="route('blog.index')" :current="request()->routeIs('blog.*')" wire:navigate>
                     {{ __('Blog') }}
                 </flux:navbar.item>
+                <flux:navbar.item class="h-10 max-lg:hidden" :href="route('contact.index')" :current="request()->routeIs('contact.*')" wire:navigate>
+                    {{ __('Contact') }}
+                </flux:navbar.item>
+                <flux:navbar.item class="h-10 max-lg:hidden" :href="route('privacy.index')" :current="request()->routeIs('privacy.*')" wire:navigate>
+                    {{ __('Privacybeleid') }}
+                </flux:navbar.item>
             </flux:navbar>
         </flux:header>
 
@@ -50,6 +56,12 @@
                 <flux:sidebar.group>
                     <flux:sidebar.item icon="newspaper" :href="route('blog.index')" :current="request()->routeIs('blog.*')" wire:navigate>
                         {{ __('Blog') }}
+                    </flux:sidebar.item>
+                    <flux:sidebar.item icon="envelope" :href="route('contact.index')" :current="request()->routeIs('contact.*')" wire:navigate>
+                        {{ __('Contact') }}
+                    </flux:sidebar.item>
+                    <flux:sidebar.item icon="shield-check" :href="route('privacy.index')" :current="request()->routeIs('privacy.*')" wire:navigate>
+                        {{ __('Privacybeleid') }}
                     </flux:sidebar.item>
                 </flux:sidebar.group>
             </flux:sidebar.nav>
